@@ -5,6 +5,69 @@
   <meta charset="utf-8">
   <title>Sin título. Escriba su nombre. Ejercicios. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco.
     www.mclibre.org</title>
+
+  <style>
+    body {
+      background-color: lightgrey;
+    }
+
+    ul {
+      list-style-type: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    ul.lista1 li {
+      display: inline-block;
+      color: purple;
+      font-size: 18px;
+      font-weight: bold;
+      border: 5px dashed purple;
+      background-color: rgb(141, 229, 117);
+      padding: 8px;
+      margin: 0 8px;
+    }
+
+    ul.lista2 li {
+      display: inline-block;
+      background-color: white;
+      padding: 3px;
+      border: 1px solid grey; 
+      box-shadow: 3px 2px 2px 1px grey;
+      margin: 5px;
+    }
+
+    ul.lista3 li {
+      width: 180px;
+      text-align: center;
+      font-size: 12px;
+      padding: 6px;
+      border: 1px solid grey;
+      margin: 0 0 10px 0;
+      box-shadow: 2px 2px 2px 0px grey;
+      background-color: white;
+    }
+
+    .center {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    ul.lista4 li {
+      display: inline-block;
+      padding: 6px;
+      margin-bottom: 3px;
+    }
+
+    ul.lista4 li:nth-child(even) {
+      color: white;
+      background-color: rgb(55, 116, 207);
+    }
+
+    ul.lista4 li:nth-child(odd) {
+      color: rgb(55, 116, 207);
+      background-color: white;
+    }
+  </style>
 </head>
 
 <body>
@@ -32,7 +95,7 @@
     </ul>
 
     <h2>Lista 2</h2>
-    <ul class="lista2">
+    <ul class="lista2 center">
       <li>Punto 1</li>
       <li>Punto 2</li>
       <li>Punto 3, más largo</li>
@@ -50,7 +113,7 @@
     </ul>
 
     <h2>Lista 4</h2>
-    <ul class="lista4">
+    <ul class="lista4 center">
       <li>Punto 1</li>
       <li>Punto 2</li>
       <li>Punto 3, más largo</li>
