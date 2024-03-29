@@ -34,10 +34,11 @@
     }
 
     .museum {
-      width: 70%;
+      width: 60%;
       padding: 0 16px 32px 16px;
-      margin: 10px 15% 0 15%;
+      margin: 10px 20% 0 20%;
       background-color: white;
+      min-height: 250px;
 
     }
 
@@ -49,6 +50,23 @@
       border: 13px solid #ffaa33;
     }
 
+    img {
+      margin: 30px 20px;
+      width: 200px;
+    }
+
+    .float-left {
+      float: left;
+      border: 13px solid #e64d00; 
+      outline: 13px solid #ffaa33;
+      
+    }
+
+    .float-right {
+      float: right;
+      border: 13px solid #ffaa33; 
+      outline: 13px solid #e64d00;
+    }
   </style>
 </head>
 
@@ -61,18 +79,22 @@
 
   <main>
     <section id="british-museum" class="museum">
+      <img class="float-left" src="british-museum.jpg" alt="British Museum" >
       <h2>The British Museum</h2>
       <div>El Museo Británico se fundó en 1735 y alberga antigüedades procedentes de Egipto, Roma, Grecia, Oriente Próximo y Asia. El edificio se empezó a construir en 1824, fue diseñado por Robert Smirke y hasta 1997 también era la sede de la Biblioteca Británica. Seguramente sólo haya dos museos en el mundo comparables en la variedad y riqueza de sus colecciones: el Louvre de París y el Metropolitan de Nueva York.</div>
     </section>
     <section id="tate-britain" class="museum">
+      <img class="float-right" src="tate-britain.jpg" alt="Tate Britain">
       <h2>Tate Britain</h2>
       <div>En 1897 se abrió al público, al sur de Westminster, la Galería Nacional de Arte Británico, gracias al dinero aportado por Henry Tate, magnate del azúcar y coleccionista. En 1932 el museo pasó a llamarse Tate Gallery. En 2000 el museo inaguró la Tate Modern, una nueva sede situada frente a la Catedral de San Pablo. La Tate Gallery pasó a llamarse Tate Britain y alberga importantes colecciones como las dedicadas a William Turner o a Henry Moore.</div>
       </section>
       <section id="national-gallery" class="museum">
+      <img class="float-left" src="trafalgar-square.jpg" alt="Trafalgar Square"> 
       <h2>The National Gallery</h2>
       <div>La National Gallery alberga la más importante colección inglesa de pintura de los siglos XV al XIX. Fue creada en 1824 a partir de donaciones y compras a coleccionistas particulares y desde 1838 tiene su sede en Trafalgar Square. Esta plaza está dedicada a una de las victorias más importantes de la Armada inglesa, la batalla de Trafalgar de 1805, frente a las flotas francesa y española. En el centro de la plaza se encuentra la columna de Nelson, que dirigió la flota inglesa en esa batalla y falleció en ella.</div>
     </section>
     <section id="natural-history-museum" class="museum">
+      <img class="float-right" src="natural-history.jpg" alt="Natural History Museum">
       <h2>Natural History Museum</h2>
       <div>En el siglo XVII el Museo Británico albergaba colecciones de animales y plantas, pero en desastrosas condiciones. Para resolver la situación, en 1881 se abrió la sede actual del Museo de Historia Natural, un magnífico edificio de ladrillo de terracota, característico de la época victoriana. En sus inmediaciones se encuentran también el museo de la Ciencia, el museo de Arte y Diseño, varias reales academias de arte y ciencia y la famosa sala de conciertos Royal Albert Hall.</div>
     </section>
